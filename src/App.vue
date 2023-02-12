@@ -43,7 +43,8 @@
 <script>
 
 
-//tex
+//texss
+
 
 export default {
     name: 'App',
