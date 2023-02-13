@@ -14,7 +14,7 @@
     <ul v-for="(tarefa, ind) in tarefas" :key="tarefa">
       <li class="message m-6 is-flex is-flex-direction-column ">
         <div class="message-header is-flex is-flex-direction-row-reverse is-align-content-flex-end">
-          <div class="columns">
+          <div class="columns is-mobile">
             <div class="column">
         <button class="button is-small has-background-warning" @click="sobeParaEdicao(ind)"  aria-label="delete">
           <span class="icon">
